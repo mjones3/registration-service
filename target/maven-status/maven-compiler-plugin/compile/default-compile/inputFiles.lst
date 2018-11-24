@@ -1,0 +1,14 @@
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/utils/UserContextInterceptor.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/hystrix/DelegatingUserContextCallable.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/Application.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/services/OrganizationService.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/repository/OrganizationRepository.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/hystrix/ThreadLocalAwareStrategy.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/model/Organization.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/utils/UserContext.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/hystrix/ThreadLocalConfiguration.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/config/ServiceConfig.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/controllers/OrganizationServiceController.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/security/ResourceServerConfiguration.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/utils/UserContextFilter.java
+/Users/mjones/dev/work/practice-journal/registration-service/src/main/java/com/practicejournal/registration/utils/UserContextHolder.java
