@@ -1,17 +1,19 @@
-spring:
-  application:
-    name: registrationservice
-  profiles:
-    active:
-      default
-  cloud:
-    config:
-      enabled: true
+# spring:
+#   application:
+#     name: registrationservice
+#   profiles:
+#     active:
+#       default
+#   cloud:
+#     config:
+#       enabled: true
       
-security:
-  oauth2:
-    resource:
-       userInfoUri: http://localhost:8901/auth/user
+#management.security.enabled=false
+
+#security:
+#  oauth2:
+#    resource:
+#       userInfoUri: http://localhost:8901/auth/user
 
 #Setting the logging levels for the service
 logging:
@@ -20,7 +22,6 @@ logging:
     org.springframework.web: WARN
     com.practicejournal: DEBUG
 
-
 eureka:
   instance:
     preferIpAddress: true
@@ -28,6 +29,6 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-        defaultZone: http://eureka:8761/eureka/
+        defaultZone: http://localhost:8761/eureka/
 
 

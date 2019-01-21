@@ -1,6 +1,7 @@
 package com.practicejournal.registration;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -14,7 +15,11 @@ import javax.servlet.Filter;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableCircuitBreaker
-@EnableResourceServer
+//@EnableResourceServer
+@EnableAutoConfiguration(exclude = {
+        org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration.class,
+        org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration.class})
+
 public class Application {
     @Bean
     public Filter userContextFilter() {
